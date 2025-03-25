@@ -1,1 +1,1 @@
-# rn-demo
+# Implementing Core Mobile Development Modules with React Native
