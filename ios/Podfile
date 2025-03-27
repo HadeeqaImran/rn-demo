@@ -14,7 +14,21 @@ if linkage != nil
   use_frameworks! :linkage => linkage.to_sym
 end
 
-target 'rn' do
+
+abstract_target 'rnbase' do
+
+  target "rn" do
+  end
+
+  target "rn developemnt" do
+  end
+
+  target "rn production" do
+  end
+
+  target "rn staging" do
+  end
+  
   config = use_native_modules!
 
   use_react_native!(
